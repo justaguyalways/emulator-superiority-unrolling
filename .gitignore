@@ -1,0 +1,9 @@
+.venv/
+repos/
+__pycache__/
+*.pyc
+.DS_Store
+results/logs/
+results/runs/*/trj.npz
+results/runs/*/model.eqx
+results/runs/*/loss.csv.gz
