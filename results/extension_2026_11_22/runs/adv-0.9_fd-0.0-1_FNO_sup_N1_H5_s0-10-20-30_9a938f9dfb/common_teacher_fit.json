@@ -1,0 +1,49 @@
+{
+  "source_sha256": "e728bdbe2baeba95e006cf09600cf5e206595116314c4a332faebacb84061a1f",
+  "validation_seed": 110,
+  "validation_profiles": 100,
+  "teacher_horizon": 5,
+  "metric": "one-step absolute mean MSE",
+  "note": "Common states/targets across all recipes; post-training diagnostic, no model selection.",
+  "rows": [
+    {
+      "name": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb",
+      "group": "extension_fixedH5",
+      "arch": "FNO",
+      "pde": "advection",
+      "solver": "explicit",
+      "N": 1,
+      "mode": "sup",
+      "seed": 0,
+      "training_heights": "ind;1;True",
+      "validation_distribution": "ind;1;True",
+      "common_initial_MSE": 2.985265146193683e-09,
+      "common_H5_MSE": 1.8786674438331374e-09,
+      "MSE_at_input_time_0": 2.985265146193683e-09,
+      "MSE_at_input_time_1": 1.0493738100691985e-09,
+      "MSE_at_input_time_2": 4.971486000648895e-10,
+      "MSE_at_input_time_3": 1.326449838856547e-09,
+      "MSE_at_input_time_4": 3.535099990514823e-09,
+      "one_step_validation_relative_difference": 1.1819259412296781e-07
+    },
+    {
+      "name": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb",
+      "group": "extension_fixedH5",
+      "arch": "FNO",
+      "pde": "advection",
+      "solver": "explicit",
+      "N": 1,
+      "mode": "sup",
+      "seed": 0,
+      "training_heights": "ind;1;True",
+      "validation_distribution": "indamp;1;0.5;1.5",
+      "common_initial_MSE": 0.002770151011645794,
+      "common_H5_MSE": 0.002762856427580118,
+      "MSE_at_input_time_0": 0.002770151011645794,
+      "MSE_at_input_time_1": 0.0027664988301694393,
+      "MSE_at_input_time_2": 0.0027628522366285324,
+      "MSE_at_input_time_3": 0.0027592098340392113,
+      "MSE_at_input_time_4": 0.0027555718552321196
+    }
+  ]
+}

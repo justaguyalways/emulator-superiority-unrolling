@@ -1,0 +1,69 @@
+{
+  "name": "adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_1b243496c9",
+  "config": {
+    "network": "Conv;34;10;relu",
+    "linear_difficulties": [
+      0.0,
+      -3.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "convection_difficulty": 0.0,
+    "num_points": 100,
+    "train_simulator": "fd;1.0;1",
+    "test_simulator": "etdrk;2",
+    "ic_train": "indamp;1;0.5;1.5",
+    "ic_test": "ind;1;True",
+    "train_mode": "sup",
+    "num_unrolled_steps": 2,
+    "temporal_horizon_train": -1,
+    "num_samples_train": 300,
+    "num_training_steps": 10000,
+    "lr": 0.001,
+    "warmup_steps": 1000,
+    "batch_size": 32,
+    "metric_train": "mean_MSE",
+    "temporal_horizon_test": 200,
+    "num_samples_test": 10,
+    "metric_test": "mean_RMSE",
+    "symbol_modes": 20,
+    "seed_init": 2,
+    "seed_train": 10,
+    "seed_test": 20,
+    "seed_shuffle": 30,
+    "linearize_fd": true,
+    "tag": "extension_conv"
+  },
+  "provenance": {
+    "backend": "fast",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.12.14",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "dependencies": {
+      "jax": "0.4.38",
+      "jaxlib": "0.4.38",
+      "equinox": "0.13.8",
+      "optax": "0.2.5",
+      "apebench": "0.1.1",
+      "trainax": "0.0.2",
+      "exponax": "0.1.0",
+      "pdequinox": "0.1.2",
+      "numpy": "2.5.5",
+      "lineax": "0.0.8",
+      "jaxopt": "0.8.5"
+    },
+    "source_sha256": {
+      "extension_study.py": "18d50d3ae626e2ac1e63204364eec90ce95def5400759e1016f2bb2a3a67dcc1",
+      "emusup.py": "d1ea2fe6c99a4b4fc0967bf218952e0d269d8a91b06d3c29b8f79ceb47cc3959",
+      "fast_models.py": "d28448c8abe06bc274d50ff7f5f317aed89eb1981edb5631c3b7fb0f81f2de91"
+    },
+    "authors_commit": "461eb07d2714c958d43d4821abc78f2d31efff97"
+  },
+  "num_windows": 300,
+  "n_params": 31757,
+  "completed_updates": 10000,
+  "training_seconds": 759.8803417682648
+}

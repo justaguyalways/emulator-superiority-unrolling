@@ -1,0 +1,16 @@
+{
+  "name": "adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_2a83b9e944",
+  "arch": "Conv",
+  "group": "extension_conv",
+  "solver": "explicit",
+  "N": 2,
+  "H": 2,
+  "amplitudes": "indamp;1;0.5;1.5",
+  "seed": 1,
+  "original_R100": 0.8296893239021301,
+  "homogeneous_R100": 0.8298791646957397,
+  "original_sup100": 0.8222837448120117,
+  "homogeneous_sup100": 0.8224424123764038,
+  "max_first_step_error_difference": 0.0,
+  "homogeneity_max_difference_at_scale07": 1.1920928955078125e-07
+}

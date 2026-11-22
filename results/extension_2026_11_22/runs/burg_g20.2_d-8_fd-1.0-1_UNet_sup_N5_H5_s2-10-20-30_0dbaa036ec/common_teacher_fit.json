@@ -1,0 +1,30 @@
+{
+  "source_sha256": "e728bdbe2baeba95e006cf09600cf5e206595116314c4a332faebacb84061a1f",
+  "validation_seed": 110,
+  "validation_profiles": 100,
+  "teacher_horizon": 5,
+  "metric": "one-step absolute mean MSE",
+  "note": "Common states/targets across all recipes; post-training diagnostic, no model selection.",
+  "rows": [
+    {
+      "name": "burg_g20.2_d-8_fd-1.0-1_UNet_sup_N5_H5_s2-10-20-30_0dbaa036ec",
+      "group": "extension_burgers",
+      "arch": "UNet",
+      "pde": "Burgers",
+      "solver": "Burgers P1",
+      "N": 5,
+      "mode": "sup",
+      "seed": 2,
+      "training_heights": "fourier;1;False;True",
+      "validation_distribution": "fourier;1;False;True",
+      "common_initial_MSE": 3.934758296963992e-06,
+      "common_H5_MSE": 1.589322528161574e-05,
+      "MSE_at_input_time_0": 3.934758296963992e-06,
+      "MSE_at_input_time_1": 9.864871572062839e-06,
+      "MSE_at_input_time_2": 1.5804720533196814e-05,
+      "MSE_at_input_time_3": 2.1407466192613356e-05,
+      "MSE_at_input_time_4": 2.845430572051555e-05,
+      "trained_native_backend_max_difference": 3.2782554626464844e-07
+    }
+  ]
+}

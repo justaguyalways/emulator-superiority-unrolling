@@ -1,0 +1,94 @@
+{
+  "config": {
+    "network": "UNet;12;2;relu",
+    "linear_difficulties": [
+      0.0,
+      0.0,
+      0.2,
+      0.0,
+      0.0
+    ],
+    "convection_difficulty": -8.0,
+    "num_points": 60,
+    "train_simulator": "fd;1.0;1",
+    "test_simulator": "fd;1.0;100",
+    "ic_train": "fourier;1;False;True",
+    "ic_test": "fourier;1;False;True",
+    "train_mode": "sup",
+    "num_unrolled_steps": 1,
+    "temporal_horizon_train": -1,
+    "num_samples_train": 500,
+    "num_training_steps": 100000,
+    "lr": 0.0003,
+    "warmup_steps": 5000,
+    "batch_size": 32,
+    "metric_train": "mean_MSE",
+    "temporal_horizon_test": 100,
+    "num_samples_test": 100,
+    "metric_test": "mean_nRMSE",
+    "symbol_modes": 20,
+    "seed_init": 0,
+    "seed_train": 10,
+    "seed_test": 20,
+    "seed_shuffle": 30,
+    "linearize_fd": true,
+    "tag": "extension_burgers"
+  },
+  "definition": "Energy in Fourier modes k>=2 divided by non-DC energy (k>=1). Local teacher/reference gap is measured from the same teacher state, not from separate trajectories.",
+  "rows": [
+    {
+      "teacher_time": 0,
+      "samples": 500,
+      "mean_higher_mode_energy_fraction": 5.104225961165276e-14,
+      "median_higher_mode_energy_fraction": 5.248978470840174e-15,
+      "mean_one_step_teacher_reference_nRMSE": 0.08369290083646774,
+      "median_picard_iterations_to_reference_tolerance": 22.0,
+      "max_picard_iterations": 35
+    },
+    {
+      "teacher_time": 1,
+      "samples": 500,
+      "mean_higher_mode_energy_fraction": 0.04098440334200859,
+      "median_higher_mode_energy_fraction": 0.044159796088933945,
+      "mean_one_step_teacher_reference_nRMSE": 0.09585317969322205,
+      "median_picard_iterations_to_reference_tolerance": 30.0,
+      "max_picard_iterations": 44
+    },
+    {
+      "teacher_time": 2,
+      "samples": 500,
+      "mean_higher_mode_energy_fraction": 0.11822833120822906,
+      "median_higher_mode_energy_fraction": 0.13359999656677246,
+      "mean_one_step_teacher_reference_nRMSE": 0.12968796491622925,
+      "median_picard_iterations_to_reference_tolerance": 33.0,
+      "max_picard_iterations": 48
+    },
+    {
+      "teacher_time": 3,
+      "samples": 500,
+      "mean_higher_mode_energy_fraction": 0.18724609911441803,
+      "median_higher_mode_energy_fraction": 0.22151926159858704,
+      "mean_one_step_teacher_reference_nRMSE": 0.1517454981803894,
+      "median_picard_iterations_to_reference_tolerance": 34.0,
+      "max_picard_iterations": 47
+    },
+    {
+      "teacher_time": 4,
+      "samples": 500,
+      "mean_higher_mode_energy_fraction": 0.23239797353744507,
+      "median_higher_mode_energy_fraction": 0.2802923321723938,
+      "mean_one_step_teacher_reference_nRMSE": 0.15577790141105652,
+      "median_picard_iterations_to_reference_tolerance": 32.0,
+      "max_picard_iterations": 44
+    },
+    {
+      "teacher_time": 5,
+      "samples": 500,
+      "mean_higher_mode_energy_fraction": 0.25732555985450745,
+      "median_higher_mode_energy_fraction": 0.3114418685436249,
+      "mean_one_step_teacher_reference_nRMSE": 0.1499435305595398,
+      "median_picard_iterations_to_reference_tolerance": 30.0,
+      "max_picard_iterations": 40
+    }
+  ]
+}

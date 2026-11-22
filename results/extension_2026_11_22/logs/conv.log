@@ -1,0 +1,29 @@
+START adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07 from 0
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 1000, "loss": 0.0001067442717612721, "train_s": 14.55}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 2000, "loss": 3.964368806919083e-05, "train_s": 28.84}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 3000, "loss": 3.723740883287974e-05, "train_s": 43.14}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 4000, "loss": 2.040343861153815e-05, "train_s": 58.14}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 5000, "loss": 8.378307029488496e-06, "train_s": 71.95}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 6000, "loss": 2.107727141265059e-06, "train_s": 87.2}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 7000, "loss": 2.373078444861676e-08, "train_s": 103.09}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 8000, "loss": 1.107499514318988e-08, "train_s": 118.93}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 9000, "loss": 9.430022096523771e-09, "train_s": 134.22}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07", "updates": 10000, "loss": 9.088463315265471e-09, "train_s": 151.85}
+FINISHED adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07 primary 0.4544866681098938
+START adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_52dea9c5e3 from 0
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_52dea9c5e3", "updates": 1000, "loss": 2.204755764978472e-05, "train_s": 19.4}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_52dea9c5e3", "updates": 2000, "loss": 2.8367101094772806e-06, "train_s": 35.81}
+Traceback (most recent call last):
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/extension_study.py", line 291, in <module>
+    main()
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/extension_study.py", line 284, in main
+    run(c, args.backend, args.chunk, reuse=not args.no_reuse)
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/extension_study.py", line 229, in run
+    (params, state), losses = train_chunk(params, state, static, windows,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/.venv/lib/python3.12/site-packages/equinox/_jit.py", line 209, in __call__
+    return _call(self, False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/.venv/lib/python3.12/site-packages/equinox/_jit.py", line 271, in _call
+    marker.block_until_ready()
+KeyboardInterrupt

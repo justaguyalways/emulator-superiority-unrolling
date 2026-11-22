@@ -1,0 +1,16 @@
+{
+  "name": "adv-3_fd-1.0-1_FNO_sup_N2_H5_s2-10-20-30_6f52550cc0",
+  "arch": "FNO",
+  "group": "extension_fixedH5",
+  "solver": "implicit",
+  "N": 2,
+  "H": 5,
+  "amplitudes": "ind;1;True",
+  "seed": 2,
+  "original_R100": 1.126265525817871,
+  "homogeneous_R100": 1.0013117790222168,
+  "original_sup100": 1.0822172164916992,
+  "homogeneous_sup100": 1.0006784200668335,
+  "max_first_step_error_difference": 0.0,
+  "homogeneity_max_difference_at_scale07": 1.1920928955078125e-07
+}

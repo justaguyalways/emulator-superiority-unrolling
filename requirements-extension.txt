@@ -1,0 +1,5 @@
+# Numerical versions used for the fresh extension cohort.
+-r results/extension_2026_11_22/requirements-tested.txt
+# Standalone report generation (not used during model training).
+reportlab==5.1.0
+pypdf==7.1.1

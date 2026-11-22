@@ -1,0 +1,11 @@
+START adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20 from 3000
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 4000, "loss": 4.963818245329321e-10, "train_s": 42.54}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 5000, "loss": 5.016245752109683e-10, "train_s": 59.28}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 6000, "loss": 5.425498383893057e-10, "train_s": 77.79}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 7000, "loss": 5.371968980760755e-10, "train_s": 92.81}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 8000, "loss": 5.044487605410097e-10, "train_s": 109.74}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 9000, "loss": 4.502707651177218e-10, "train_s": 132.11}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 10000, "loss": 4.087341021197233e-10, "train_s": 151.86}
+FINISHED adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20 primary 0.2565653920173645
+GROUP FINISHED fixedH
+GROUP FINISHED fixedH

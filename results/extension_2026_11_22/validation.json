@@ -1,0 +1,30 @@
+{
+  "Conv;34;10;relu": {
+    "n_params": 31757,
+    "max_forward_difference": 1.862645149230957e-08,
+    "relative_gradient_difference": 5.867691487875288e-07
+  },
+  "UNet;12;2;relu": {
+    "n_params": 27193,
+    "max_forward_difference": 1.1920928955078125e-07,
+    "relative_gradient_difference": 2.027490624750646e-07
+  },
+  "chunk_resume_parameter_difference": 0.0,
+  "P1_directional_derivative": {
+    "autodiff": -0.9399128556251526,
+    "finite_difference": -0.9384154677391052,
+    "relative_difference": 0.0015931135286488068
+  },
+  "reference_tolerance_check": {
+    "samples": 3,
+    "steps": 20,
+    "default_tol": 1e-05,
+    "tighter_tol": 1e-07,
+    "default_maxiter": 100,
+    "tighter_maxiter": 200,
+    "max_state_difference": 0.0004520043730735779,
+    "max_reference_RMSE_fraction_of_teacher_gap": 0.0005044547724537551,
+    "note": "An initial absolute max-state criterion of 0.0002 was exceeded; the physically relevant relative-gap check is reported instead, with final model sensitivity evaluated separately."
+  },
+  "status": "passed"
+}

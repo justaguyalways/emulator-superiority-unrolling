@@ -69,3 +69,63 @@ Our runner is built on the MIT-licensed APEBench / Exponax / Trainax stack.
   against the exact solution, 10 test initial conditions, 200 steps.
 * Controls: knife-edge test (test amplitude rescaled), random-amplitude training
   (U(0.5, 1.5)), one-step training on 10-step trajectories, multi-mode test, Burgers.
+
+## November 22 extension (completed)
+
+The focused extension is specified in [EXPERIMENT_PLAN.md](EXPERIMENT_PLAN.md).
+All 66 primary configurations completed their full budgets with finite rollouts;
+the separate calibration brings the fresh total to 67. The completion,
+source hashes, unchanged historical summaries, and common teacher baselines are
+verified in `results/extension_2026_11_22/audit.json`.
+It runs 36 ConvNet amplitude-control cells, 18 FNO cells using the same five-step
+teacher trajectories, and 12 UNet Burgers cells. Each comparison uses three
+initialization seeds. One additional FNO calibration is retained separately.
+All primary baselines are freshly trained: historical and new environments are
+not numerically interchangeable and their results are not pooled.
+
+Use Python 3.12 and the pinned dependencies in `requirements-extension.txt`.
+The authors' dependency is pinned to commit
+`461eb07d2714c958d43d4821abc78f2d31efff97` under the existing ignored `repos/`
+directory. The current execution uses CPU JAX; workers are independent processes.
+Run one pool at a time. Completed cells are skipped; unfinished cells resume their
+saved weights **and Adam state** if configuration and source hashes match.
+
+```bash
+.venv/bin/python -m pip install -r requirements-extension.txt
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/validate_extension.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/run_extension_pool.py --workers 6
+.venv/bin/python src/study_status.py
+
+# Frozen-model diagnostics after training; these never select checkpoints.
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/homogeneity_control.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/common_teacher_fit.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/burgers_metric_sensitivity.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/diagnose_teacher_coverage.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/analyze_extension.py
+.venv/bin/python src/audit_extension.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/export_extension_report.py
+```
+
+[Extension results](results/extension_2026_11_22/RESULTS.md) contain the complete
+tables, figures, interpretation, and report-ready paragraphs.
+The [extension PDF](results/extension_2026_11_22/Experiment_Results.pdf) and
+[original midway report](reports/midway_report_story.pdf) are included.
+The final PDF exporter also requires a reviewed `DISCUSSION.json` and all
+prescribed outcomes. Seed ranges are descriptive, and conditional test-example
+bootstrap intervals do not replace variability across training seeds.
+
+Configurations, metrics, binned training curves, frozen-model diagnostics,
+per-example errors, and numerical-validation records are retained with the
+extension results. Full weights, optimizer checkpoints, trajectories, loss arrays,
+and execution logs for all 67 fresh runs are included in the repository. The
+cached numerical results suffice to regenerate the tables and figures; the saved
+weights support reevaluation on new inputs. See the plan for the distinctions between total-error
+ratios, individual rollout-step ratios, and the converged discrete Burgers
+reference.
+
+The exact numerical sources executed for the fresh runs are preserved in
+`results/extension_2026_11_22/source_snapshot/`. After training finished, the live
+runner received a serialization-only fix for nested nonfinite JSON values;
+it does not change training or evaluation. Existing results retain their original
+source hashes. Interrupted workers resumed saved Adam state; the resume check
+in `validation.json` agrees exactly with uninterrupted updates.

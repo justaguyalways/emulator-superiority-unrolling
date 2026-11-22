@@ -1,0 +1,24 @@
+group,solver,mode,amplitudes,N,n,primary,seeds with primary < 1
+ConvNet amplitude control,explicit,sup,unit,1,3,"0.454 [0.438, 0.573]",3/3
+ConvNet amplitude control,explicit,sup,unit,2,3,"0.385 [0.303, 0.419]",3/3
+ConvNet amplitude control,explicit,sup,unit,5,3,"0.280 [0.209, 0.404]",3/3
+ConvNet amplitude control,explicit,sup,varied,1,3,"0.639 [0.577, 0.769]",3/3
+ConvNet amplitude control,explicit,sup,varied,2,3,"0.830 [0.805, 1.080]",2/3
+ConvNet amplitude control,explicit,sup,varied,5,3,"0.927 [0.793, 1.157]",2/3
+ConvNet amplitude control,implicit,sup,unit,1,3,"1.006 [0.873, 1.068]",1/3
+ConvNet amplitude control,implicit,sup,unit,2,3,"0.679 [0.453, 0.961]",3/3
+ConvNet amplitude control,implicit,sup,unit,5,3,"0.677 [0.644, 0.808]",3/3
+ConvNet amplitude control,implicit,sup,varied,1,3,"1.006 [0.983, 1.020]",1/3
+ConvNet amplitude control,implicit,sup,varied,2,3,"1.002 [0.972, 1.003]",1/3
+ConvNet amplitude control,implicit,sup,varied,5,3,"1.003 [0.991, 1.009]",1/3
+FNO shared five-step data,explicit,sup,unit,1,3,"0.257 [0.166, 0.360]",3/3
+FNO shared five-step data,explicit,sup,unit,2,3,"0.197 [0.139, 0.212]",3/3
+FNO shared five-step data,explicit,sup,unit,5,3,"0.160 [0.122, 0.166]",3/3
+FNO shared five-step data,implicit,sup,unit,1,3,"1.148 [1.116, 1.222]",0/3
+FNO shared five-step data,implicit,sup,unit,2,3,"1.160 [1.126, 1.203]",0/3
+FNO shared five-step data,implicit,sup,unit,5,3,"1.171 [1.113, 2.421]",0/3
+Runtime calibration,explicit,sup,unit,1,1,"0.138 [0.138, 0.138]",1/1
+UNet Burgers,Burgers P1,div_wig,unit,2,3,"1.553 [1.023, 1.609]",0/3
+UNet Burgers,Burgers P1,sup,unit,1,3,"1.893 [1.190, 1.931]",0/3
+UNet Burgers,Burgers P1,sup,unit,2,3,"1.585 [0.911, 1.650]",1/3
+UNet Burgers,Burgers P1,sup,unit,5,3,"1.015 [1.011, 1.056]",0/3

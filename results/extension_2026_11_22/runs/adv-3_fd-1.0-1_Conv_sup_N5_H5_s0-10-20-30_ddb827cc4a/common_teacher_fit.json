@@ -1,0 +1,50 @@
+{
+  "source_sha256": "e728bdbe2baeba95e006cf09600cf5e206595116314c4a332faebacb84061a1f",
+  "validation_seed": 110,
+  "validation_profiles": 100,
+  "teacher_horizon": 5,
+  "metric": "one-step absolute mean MSE",
+  "note": "Common states/targets across all recipes; post-training diagnostic, no model selection.",
+  "rows": [
+    {
+      "name": "adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_ddb827cc4a",
+      "group": "extension_conv",
+      "arch": "Conv",
+      "pde": "advection",
+      "solver": "implicit",
+      "N": 5,
+      "mode": "sup",
+      "seed": 0,
+      "training_heights": "ind;1;True",
+      "validation_distribution": "ind;1;True",
+      "common_initial_MSE": 1.0747006626843358e-06,
+      "common_H5_MSE": 8.533840514246549e-07,
+      "MSE_at_input_time_0": 1.0747006626843358e-06,
+      "MSE_at_input_time_1": 1.8534150569848862e-07,
+      "MSE_at_input_time_2": 1.0878284939508376e-07,
+      "MSE_at_input_time_3": 7.771033665449067e-07,
+      "MSE_at_input_time_4": 2.1209918941167416e-06,
+      "trained_native_backend_max_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_ddb827cc4a",
+      "group": "extension_conv",
+      "arch": "Conv",
+      "pde": "advection",
+      "solver": "implicit",
+      "N": 5,
+      "mode": "sup",
+      "seed": 0,
+      "training_heights": "ind;1;True",
+      "validation_distribution": "indamp;1;0.5;1.5",
+      "common_initial_MSE": 0.00022296514362096786,
+      "common_H5_MSE": 0.00015898632409516722,
+      "MSE_at_input_time_0": 0.00022296514362096786,
+      "MSE_at_input_time_1": 0.0001855076989158988,
+      "MSE_at_input_time_2": 0.0001538233773317188,
+      "MSE_at_input_time_3": 0.00012730798334814608,
+      "MSE_at_input_time_4": 0.00010532746091485023,
+      "trained_native_backend_max_difference": 5.960464477539062e-07
+    }
+  ]
+}

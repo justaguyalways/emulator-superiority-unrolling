@@ -1,0 +1,42 @@
+START adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb from 0
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 1000, "loss": 4.993631730343395e-09, "train_s": 7.28}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 2000, "loss": 2.6506412620364017e-09, "train_s": 14.28}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 3000, "loss": 2.5176618567712694e-09, "train_s": 21.24}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 4000, "loss": 2.451922442858745e-09, "train_s": 27.69}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 5000, "loss": 2.3702102502909383e-09, "train_s": 34.39}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 6000, "loss": 2.8589945966217556e-09, "train_s": 41.29}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 7000, "loss": 2.6510662554102282e-09, "train_s": 48.01}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 8000, "loss": 2.468425241985983e-09, "train_s": 55.17}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 9000, "loss": 2.124719733487268e-09, "train_s": 62.39}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb", "updates": 10000, "loss": 1.9268533435479185e-09, "train_s": 69.31}
+FINISHED adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb primary 0.16577555239200592
+START adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f from 0
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 1000, "loss": 2.5458222197016767e-09, "train_s": 8.95}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 2000, "loss": 7.812293034703544e-10, "train_s": 16.61}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 3000, "loss": 3.7338437897105337e-10, "train_s": 24.59}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 4000, "loss": 2.954898825624497e-10, "train_s": 32.64}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 5000, "loss": 2.8149849118364045e-10, "train_s": 40.16}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 6000, "loss": 2.680218547101987e-10, "train_s": 47.37}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 7000, "loss": 2.8422184050747035e-10, "train_s": 54.81}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 8000, "loss": 2.529466636147504e-10, "train_s": 63.82}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 9000, "loss": 2.2953333678188415e-10, "train_s": 71.55}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f", "updates": 10000, "loss": 2.098296952857126e-10, "train_s": 79.42}
+FINISHED adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f primary 0.35968974232673645
+START adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20 from 0
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 1000, "loss": 9.651404120347706e-10, "train_s": 10.44}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 2000, "loss": 4.77819728228468e-10, "train_s": 18.53}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20", "updates": 3000, "loss": 4.649992613181553e-10, "train_s": 26.72}
+Traceback (most recent call last):
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/extension_study.py", line 291, in <module>
+    main()
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/extension_study.py", line 284, in main
+    run(c, args.backend, args.chunk, reuse=not args.no_reuse)
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/extension_study.py", line 229, in run
+    (params, state), losses = train_chunk(params, state, static, windows,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/.venv/lib/python3.12/site-packages/equinox/_jit.py", line 209, in __call__
+    return _call(self, False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/.venv/lib/python3.12/site-packages/equinox/_jit.py", line 271, in _call
+    marker.block_until_ready()
+KeyboardInterrupt

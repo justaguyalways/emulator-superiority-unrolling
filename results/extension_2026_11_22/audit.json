@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "planned_primary_cells": 66,
+  "observed_primary_cells": 66,
+  "completed_full_budget": 66,
+  "training_failures_retained": [],
+  "nonfinite_rollouts_retained": [],
+  "common_primary_provenance_versions": 1,
+  "executed_source_sha256": {
+    "extension_study.py": "18d50d3ae626e2ac1e63204364eec90ce95def5400759e1016f2bb2a3a67dcc1",
+    "emusup.py": "d1ea2fe6c99a4b4fc0967bf218952e0d269d8a91b06d3c29b8f79ceb47cc3959",
+    "fast_models.py": "d28448c8abe06bc274d50ff7f5f317aed89eb1981edb5631c3b7fb0f81f2de91"
+  },
+  "physical_test_conditions": 3,
+  "maximum_teacher_baseline_error_difference": 0.0,
+  "unchanged_historical_summaries": 137,
+  "notes": [
+    "Primary ratios recalculated from per-step error CSVs.",
+    "All initialization seeds share the same data split.",
+    "The separate runtime calibration is excluded from primary grid counts."
+  ]
+}

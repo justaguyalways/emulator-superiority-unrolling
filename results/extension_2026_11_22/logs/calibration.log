@@ -1,0 +1,23 @@
+START adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840 from 0
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 500, "loss": 4.4267991938795603e-08, "train_s": 4.39}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 1000, "loss": 3.4833362860808847e-09, "train_s": 8.22}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 1500, "loss": 1.6258632218324465e-09, "train_s": 11.61}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 2000, "loss": 1.17075282801693e-09, "train_s": 14.49}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 2500, "loss": 9.752563201459452e-10, "train_s": 17.17}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 3000, "loss": 8.510632754088476e-10, "train_s": 19.5}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 3500, "loss": 8.386515371050507e-10, "train_s": 21.65}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 4000, "loss": 7.830674997322262e-10, "train_s": 23.85}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 4500, "loss": 7.595589712749984e-10, "train_s": 25.99}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 5000, "loss": 8.493301617562565e-10, "train_s": 28.13}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 5500, "loss": 7.0817757213959e-10, "train_s": 30.28}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 6000, "loss": 8.118267169621163e-10, "train_s": 32.42}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 6500, "loss": 9.570825243443437e-10, "train_s": 34.58}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 7000, "loss": 7.346760422244358e-10, "train_s": 36.72}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 7500, "loss": 7.594607165373191e-10, "train_s": 38.87}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 8000, "loss": 7.279650215963329e-10, "train_s": 41.06}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 8500, "loss": 6.361037252489155e-10, "train_s": 43.21}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 9000, "loss": 6.134678876001942e-10, "train_s": 45.35}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 9500, "loss": 5.836223726518597e-10, "train_s": 47.67}
+{"run": "adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840", "updates": 10000, "loss": 5.584707141181866e-10, "train_s": 50.08}
+FINISHED adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840 primary 0.13783878087997437
+GROUP FINISHED calibration

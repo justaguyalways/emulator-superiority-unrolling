@@ -1,0 +1,14 @@
+START adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab from 0
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 1000, "loss": 0.011032802984118462, "train_s": 165.24}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 2000, "loss": 0.0003909554216079414, "train_s": 315.01}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 3000, "loss": 0.0001938692294061184, "train_s": 471.79}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 4000, "loss": 4.0551960410084575e-05, "train_s": 625.78}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 5000, "loss": 3.471134550636634e-05, "train_s": 775.14}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 6000, "loss": 0.0002018990198848769, "train_s": 922.05}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 7000, "loss": 9.1170149971731e-06, "train_s": 1068.49}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 8000, "loss": 4.712287591246422e-06, "train_s": 1235.35}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 9000, "loss": 3.6129338241153164e-06, "train_s": 1398.65}
+{"run": "adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab", "updates": 10000, "loss": 3.402461516088806e-06, "train_s": 1555.33}
+FINISHED adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab primary 1.1566659212112427
+GROUP FINISHED conv
+GROUP FINISHED conv

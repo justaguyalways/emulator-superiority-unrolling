@@ -1,0 +1,166 @@
+name,group,arch,solver,N,H,training_heights,seed,amplitude,sup@100,integrated_ratio_1_100
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07,ConvNet amplitude control,Conv,explicit,1,1,unit,0,0.95,2.5724356174468994,3.554556131362915
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07,ConvNet amplitude control,Conv,explicit,1,1,unit,0,1.0,0.3387853801250458,0.4544866681098938
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_6278b9de07,ConvNet amplitude control,Conv,explicit,1,1,unit,0,1.05,2.8879358768463135,4.525286674499512
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_dd34f188c4,ConvNet amplitude control,Conv,explicit,1,1,varied,0,0.95,0.7460902333259583,0.7723395824432373
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_dd34f188c4,ConvNet amplitude control,Conv,explicit,1,1,varied,0,1.0,0.5839929580688477,0.6385207772254944
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s0-10-20-30_dd34f188c4,ConvNet amplitude control,Conv,explicit,1,1,varied,0,1.05,0.6385833621025085,0.6779456734657288
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_52dea9c5e3,ConvNet amplitude control,Conv,explicit,1,1,unit,1,0.95,2.579437255859375,3.755159378051758
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_52dea9c5e3,ConvNet amplitude control,Conv,explicit,1,1,unit,1,1.0,0.3080407977104187,0.4376014769077301
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_52dea9c5e3,ConvNet amplitude control,Conv,explicit,1,1,unit,1,1.05,2.88413667678833,4.391282081604004
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_941651d63c,ConvNet amplitude control,Conv,explicit,1,1,varied,1,0.95,1.6394940614700317,1.378623366355896
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_941651d63c,ConvNet amplitude control,Conv,explicit,1,1,varied,1,1.0,0.8345708847045898,0.7691944241523743
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s1-10-20-30_941651d63c,ConvNet amplitude control,Conv,explicit,1,1,varied,1,1.05,0.4108155369758606,0.4803977608680725
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s2-10-20-30_116d589da4,ConvNet amplitude control,Conv,explicit,1,1,unit,2,0.95,2.8801300525665283,3.003504753112793
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s2-10-20-30_116d589da4,ConvNet amplitude control,Conv,explicit,1,1,unit,2,1.0,0.4648388624191284,0.5726744532585144
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s2-10-20-30_116d589da4,ConvNet amplitude control,Conv,explicit,1,1,unit,2,1.05,2.833555221557617,4.171370029449463
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s2-10-20-30_7ebe40058d,ConvNet amplitude control,Conv,explicit,1,1,varied,2,0.95,0.5100066065788269,0.503188967704773
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s2-10-20-30_7ebe40058d,ConvNet amplitude control,Conv,explicit,1,1,varied,2,1.0,0.5867949724197388,0.5771002173423767
+adv-0.9_fd-0.0-1_Conv_sup_N1_H1_s2-10-20-30_7ebe40058d,ConvNet amplitude control,Conv,explicit,1,1,varied,2,1.05,0.6415463089942932,0.6339142918586731
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s0-10-20-30_c19893d627,ConvNet amplitude control,Conv,explicit,2,2,varied,0,0.95,2.068660020828247,1.877686858177185
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s0-10-20-30_c19893d627,ConvNet amplitude control,Conv,explicit,2,2,varied,0,1.0,1.13003671169281,1.0795966386795044
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s0-10-20-30_c19893d627,ConvNet amplitude control,Conv,explicit,2,2,varied,0,1.05,0.7894896268844604,0.752067506313324
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s0-10-20-30_ed216faef8,ConvNet amplitude control,Conv,explicit,2,2,unit,0,0.95,2.6838254928588867,4.15860652923584
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s0-10-20-30_ed216faef8,ConvNet amplitude control,Conv,explicit,2,2,unit,0,1.0,0.2663343846797943,0.38463979959487915
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s0-10-20-30_ed216faef8,ConvNet amplitude control,Conv,explicit,2,2,unit,0,1.05,2.866299867630005,4.628732681274414
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_2a83b9e944,ConvNet amplitude control,Conv,explicit,2,2,varied,1,0.95,0.8276839256286621,0.8332128524780273
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_2a83b9e944,ConvNet amplitude control,Conv,explicit,2,2,varied,1,1.0,0.8222837448120117,0.8296893239021301
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_2a83b9e944,ConvNet amplitude control,Conv,explicit,2,2,varied,1,1.05,0.8290306925773621,0.8348036408424377
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_d03bd55d82,ConvNet amplitude control,Conv,explicit,2,2,unit,1,0.95,2.5947396755218506,3.8038220405578613
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_d03bd55d82,ConvNet amplitude control,Conv,explicit,2,2,unit,1,1.0,0.2986670732498169,0.41946572065353394
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s1-10-20-30_d03bd55d82,ConvNet amplitude control,Conv,explicit,2,2,unit,1,1.05,2.880235195159912,4.5162835121154785
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s2-10-20-30_3f9cefba8d,ConvNet amplitude control,Conv,explicit,2,2,unit,2,0.95,2.993091106414795,4.973483562469482
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s2-10-20-30_3f9cefba8d,ConvNet amplitude control,Conv,explicit,2,2,unit,2,1.0,0.22985529899597168,0.3030532896518707
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s2-10-20-30_3f9cefba8d,ConvNet amplitude control,Conv,explicit,2,2,unit,2,1.05,2.8759613037109375,5.012419700622559
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s2-10-20-30_ef621f032f,ConvNet amplitude control,Conv,explicit,2,2,varied,2,0.95,0.8960760235786438,0.8957971930503845
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s2-10-20-30_ef621f032f,ConvNet amplitude control,Conv,explicit,2,2,varied,2,1.0,0.8035903573036194,0.8045538067817688
+adv-0.9_fd-0.0-1_Conv_sup_N2_H2_s2-10-20-30_ef621f032f,ConvNet amplitude control,Conv,explicit,2,2,varied,2,1.05,0.774065375328064,0.7759222388267517
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s0-10-20-30_035b8e502d,ConvNet amplitude control,Conv,explicit,5,5,varied,0,0.95,1.033217191696167,1.0445512533187866
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s0-10-20-30_035b8e502d,ConvNet amplitude control,Conv,explicit,5,5,varied,0,1.0,0.7431604862213135,0.7926051020622253
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s0-10-20-30_035b8e502d,ConvNet amplitude control,Conv,explicit,5,5,varied,0,1.05,0.6927679181098938,0.703306257724762
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s0-10-20-30_a067ea713a,ConvNet amplitude control,Conv,explicit,5,5,unit,0,0.95,2.879326820373535,5.184880256652832
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s0-10-20-30_a067ea713a,ConvNet amplitude control,Conv,explicit,5,5,unit,0,1.0,0.11934124678373337,0.20919382572174072
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s0-10-20-30_a067ea713a,ConvNet amplitude control,Conv,explicit,5,5,unit,0,1.05,2.814814567565918,5.127306938171387
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab,ConvNet amplitude control,Conv,explicit,5,5,varied,1,0.95,1.7306712865829468,1.3950166702270508
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab,ConvNet amplitude control,Conv,explicit,5,5,varied,1,1.0,1.395386815071106,1.1566659212112427
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_2a0c295aab,ConvNet amplitude control,Conv,explicit,5,5,varied,1,1.05,1.137824296951294,0.9980767965316772
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_7246f2c88d,ConvNet amplitude control,Conv,explicit,5,5,unit,1,0.95,3.226595401763916,5.438784122467041
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_7246f2c88d,ConvNet amplitude control,Conv,explicit,5,5,unit,1,1.0,0.37291085720062256,0.4038923978805542
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s1-10-20-30_7246f2c88d,ConvNet amplitude control,Conv,explicit,5,5,unit,1,1.05,2.895202398300171,5.191953659057617
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s2-10-20-30_5a0d359ede,ConvNet amplitude control,Conv,explicit,5,5,unit,2,0.95,3.062746524810791,5.621133327484131
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s2-10-20-30_5a0d359ede,ConvNet amplitude control,Conv,explicit,5,5,unit,2,1.0,0.24524809420108795,0.2801055908203125
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s2-10-20-30_5a0d359ede,ConvNet amplitude control,Conv,explicit,5,5,unit,2,1.05,2.819049835205078,5.31329345703125
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s2-10-20-30_e53c82de2d,ConvNet amplitude control,Conv,explicit,5,5,varied,2,0.95,1.0953257083892822,1.038050889968872
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s2-10-20-30_e53c82de2d,ConvNet amplitude control,Conv,explicit,5,5,varied,2,1.0,0.9633052349090576,0.9269558191299438
+adv-0.9_fd-0.0-1_Conv_sup_N5_H5_s2-10-20-30_e53c82de2d,ConvNet amplitude control,Conv,explicit,5,5,varied,2,1.05,0.8800926804542542,0.8756113052368164
+adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840,Runtime calibration,FNO,explicit,1,1,unit,0,0.95,2.957162380218506,5.599946975708008
+adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840,Runtime calibration,FNO,explicit,1,1,unit,0,1.0,0.10777821391820908,0.13783878087997437
+adv-0.9_fd-0.0-1_FNO_sup_N1_H1_s0-10-20-30_d4f3adb840,Runtime calibration,FNO,explicit,1,1,unit,0,1.05,2.755112648010254,5.2458882331848145
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb,FNO shared five-step data,FNO,explicit,1,5,unit,0,0.95,2.9354474544525146,5.558299541473389
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb,FNO shared five-step data,FNO,explicit,1,5,unit,0,1.0,0.11655817180871964,0.16577555239200592
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s0-10-20-30_9a938f9dfb,FNO shared five-step data,FNO,explicit,1,5,unit,0,1.05,2.774700880050659,5.282668113708496
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f,FNO shared five-step data,FNO,explicit,1,5,unit,1,0.95,2.746197462081909,4.354798793792725
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f,FNO shared five-step data,FNO,explicit,1,5,unit,1,1.0,0.2252758890390396,0.35968974232673645
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s1-10-20-30_e029950e0f,FNO shared five-step data,FNO,explicit,1,5,unit,1,1.05,2.9047598838806152,4.73848819732666
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20,FNO shared five-step data,FNO,explicit,1,5,unit,2,0.95,2.8364522457122803,4.946616172790527
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20,FNO shared five-step data,FNO,explicit,1,5,unit,2,1.0,0.14726661145687103,0.2565653920173645
+adv-0.9_fd-0.0-1_FNO_sup_N1_H5_s2-10-20-30_f03a4dde20,FNO shared five-step data,FNO,explicit,1,5,unit,2,1.05,2.842651128768921,5.010344505310059
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s0-10-20-30_ec10a513f3,FNO shared five-step data,FNO,explicit,2,5,unit,0,0.95,2.938577651977539,5.628387451171875
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s0-10-20-30_ec10a513f3,FNO shared five-step data,FNO,explicit,2,5,unit,0,1.0,0.09515614062547684,0.13889984786510468
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s0-10-20-30_ec10a513f3,FNO shared five-step data,FNO,explicit,2,5,unit,0,1.05,2.7625839710235596,5.309064865112305
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s1-10-20-30_210710aa60,FNO shared five-step data,FNO,explicit,2,5,unit,1,0.95,2.912376880645752,5.338729381561279
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s1-10-20-30_210710aa60,FNO shared five-step data,FNO,explicit,2,5,unit,1,1.0,0.12382587790489197,0.19718722999095917
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s1-10-20-30_210710aa60,FNO shared five-step data,FNO,explicit,2,5,unit,1,1.05,2.8048977851867676,5.187065124511719
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s2-10-20-30_b1cc9e4e0a,FNO shared five-step data,FNO,explicit,2,5,unit,2,0.95,2.8781025409698486,5.184959888458252
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s2-10-20-30_b1cc9e4e0a,FNO shared five-step data,FNO,explicit,2,5,unit,2,1.0,0.12144601345062256,0.21194519102573395
+adv-0.9_fd-0.0-1_FNO_sup_N2_H5_s2-10-20-30_b1cc9e4e0a,FNO shared five-step data,FNO,explicit,2,5,unit,2,1.05,2.817150831222534,5.11756706237793
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s0-10-20-30_f98c7012b0,FNO shared five-step data,FNO,explicit,5,5,unit,0,0.95,2.939234972000122,5.654203414916992
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s0-10-20-30_f98c7012b0,FNO shared five-step data,FNO,explicit,5,5,unit,0,1.0,0.07995738834142685,0.12235026806592941
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s0-10-20-30_f98c7012b0,FNO shared five-step data,FNO,explicit,5,5,unit,0,1.05,2.757136821746826,5.3164381980896
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s1-10-20-30_eed658c6e7,FNO shared five-step data,FNO,explicit,5,5,unit,1,0.95,2.9415934085845947,5.52143669128418
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s1-10-20-30_eed658c6e7,FNO shared five-step data,FNO,explicit,5,5,unit,1,1.0,0.11250198632478714,0.16582392156124115
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s1-10-20-30_eed658c6e7,FNO shared five-step data,FNO,explicit,5,5,unit,1,1.05,2.783477544784546,5.261796474456787
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s2-10-20-30_3fcbcb8b8e,FNO shared five-step data,FNO,explicit,5,5,unit,2,0.95,2.8999240398406982,5.387641429901123
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s2-10-20-30_3fcbcb8b8e,FNO shared five-step data,FNO,explicit,5,5,unit,2,1.0,0.08563565462827682,0.15963013470172882
+adv-0.9_fd-0.0-1_FNO_sup_N5_H5_s2-10-20-30_3fcbcb8b8e,FNO shared five-step data,FNO,explicit,5,5,unit,2,1.05,2.7866721153259277,5.200576305389404
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s0-10-20-30_766ad28333,ConvNet amplitude control,Conv,implicit,1,1,varied,0,0.95,1.0190156698226929,1.0218721628189087
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s0-10-20-30_766ad28333,ConvNet amplitude control,Conv,implicit,1,1,varied,0,1.0,1.0212374925613403,1.0200339555740356
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s0-10-20-30_766ad28333,ConvNet amplitude control,Conv,implicit,1,1,varied,0,1.05,1.0231127738952637,1.0183120965957642
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s0-10-20-30_89712ed24a,ConvNet amplitude control,Conv,implicit,1,1,unit,0,0.95,1.121625304222107,1.0147637128829956
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s0-10-20-30_89712ed24a,ConvNet amplitude control,Conv,implicit,1,1,unit,0,1.0,1.1179341077804565,1.0064468383789062
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s0-10-20-30_89712ed24a,ConvNet amplitude control,Conv,implicit,1,1,unit,0,1.05,1.1147526502609253,1.0045573711395264
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s1-10-20-30_023db4b084,ConvNet amplitude control,Conv,implicit,1,1,unit,1,0.95,0.8553703427314758,0.8726783990859985
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s1-10-20-30_023db4b084,ConvNet amplitude control,Conv,implicit,1,1,unit,1,1.0,0.855804443359375,0.8728600740432739
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s1-10-20-30_023db4b084,ConvNet amplitude control,Conv,implicit,1,1,unit,1,1.05,0.8577490448951721,0.8777546286582947
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s1-10-20-30_89204fe625,ConvNet amplitude control,Conv,implicit,1,1,varied,1,0.95,0.9915732145309448,1.0064246654510498
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s1-10-20-30_89204fe625,ConvNet amplitude control,Conv,implicit,1,1,varied,1,1.0,0.9959710836410522,1.0061599016189575
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s1-10-20-30_89204fe625,ConvNet amplitude control,Conv,implicit,1,1,varied,1,1.05,0.9997720122337341,1.0058271884918213
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s2-10-20-30_1852c95866,ConvNet amplitude control,Conv,implicit,1,1,varied,2,0.95,0.9631772637367249,0.9810136556625366
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s2-10-20-30_1852c95866,ConvNet amplitude control,Conv,implicit,1,1,varied,2,1.0,0.9664900302886963,0.9829316139221191
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s2-10-20-30_1852c95866,ConvNet amplitude control,Conv,implicit,1,1,varied,2,1.05,0.9693679809570312,0.9845736622810364
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s2-10-20-30_d6f772d6e3,ConvNet amplitude control,Conv,implicit,1,1,unit,2,0.95,1.1819225549697876,1.082481026649475
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s2-10-20-30_d6f772d6e3,ConvNet amplitude control,Conv,implicit,1,1,unit,2,1.0,1.1722475290298462,1.0679516792297363
+adv-3_fd-1.0-1_Conv_sup_N1_H1_s2-10-20-30_d6f772d6e3,ConvNet amplitude control,Conv,implicit,1,1,unit,2,1.05,1.163688063621521,1.0599831342697144
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s0-10-20-30_75273b7734,ConvNet amplitude control,Conv,implicit,2,2,varied,0,0.95,1.0274858474731445,1.0026485919952393
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s0-10-20-30_75273b7734,ConvNet amplitude control,Conv,implicit,2,2,varied,0,1.0,1.0231080055236816,1.0016776323318481
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s0-10-20-30_75273b7734,ConvNet amplitude control,Conv,implicit,2,2,varied,0,1.05,1.0194272994995117,1.0008872747421265
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s0-10-20-30_ec1de6a4d4,ConvNet amplitude control,Conv,implicit,2,2,unit,0,0.95,0.4088701009750366,0.4104982018470764
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s0-10-20-30_ec1de6a4d4,ConvNet amplitude control,Conv,implicit,2,2,unit,0,1.0,0.4293166399002075,0.4527449607849121
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s0-10-20-30_ec1de6a4d4,ConvNet amplitude control,Conv,implicit,2,2,unit,0,1.05,0.4508950412273407,0.49370628595352173
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s1-10-20-30_45f4d6ed28,ConvNet amplitude control,Conv,implicit,2,2,unit,1,0.95,0.852754533290863,0.666374146938324
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s1-10-20-30_45f4d6ed28,ConvNet amplitude control,Conv,implicit,2,2,unit,1,1.0,0.8253766894340515,0.6791677474975586
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s1-10-20-30_45f4d6ed28,ConvNet amplitude control,Conv,implicit,2,2,unit,1,1.05,0.8069002628326416,0.6954741477966309
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s1-10-20-30_c586d63f8d,ConvNet amplitude control,Conv,implicit,2,2,varied,1,0.95,1.0040371417999268,1.003546953201294
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s1-10-20-30_c586d63f8d,ConvNet amplitude control,Conv,implicit,2,2,varied,1,1.0,1.004225492477417,1.0030869245529175
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s1-10-20-30_c586d63f8d,ConvNet amplitude control,Conv,implicit,2,2,varied,1,1.05,1.0036613941192627,1.0026823282241821
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_1b243496c9,ConvNet amplitude control,Conv,implicit,2,2,varied,2,0.95,0.9072328805923462,0.9670929908752441
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_1b243496c9,ConvNet amplitude control,Conv,implicit,2,2,varied,2,1.0,0.9139426946640015,0.9715712070465088
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_1b243496c9,ConvNet amplitude control,Conv,implicit,2,2,varied,2,1.05,0.9202311635017395,0.9754091501235962
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_b6d661836d,ConvNet amplitude control,Conv,implicit,2,2,unit,2,0.95,1.0571227073669434,0.9652989506721497
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_b6d661836d,ConvNet amplitude control,Conv,implicit,2,2,unit,2,1.0,1.0443894863128662,0.9614399671554565
+adv-3_fd-1.0-1_Conv_sup_N2_H2_s2-10-20-30_b6d661836d,ConvNet amplitude control,Conv,implicit,2,2,unit,2,1.05,1.0353097915649414,0.9627745747566223
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_8d1841ec48,ConvNet amplitude control,Conv,implicit,5,5,varied,0,0.95,1.0072957277297974,1.0034880638122559
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_8d1841ec48,ConvNet amplitude control,Conv,implicit,5,5,varied,0,1.0,1.006445050239563,1.0030163526535034
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_8d1841ec48,ConvNet amplitude control,Conv,implicit,5,5,varied,0,1.05,1.0062437057495117,1.0026021003723145
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_ddb827cc4a,ConvNet amplitude control,Conv,implicit,5,5,unit,0,0.95,0.5663096904754639,0.6110311150550842
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_ddb827cc4a,ConvNet amplitude control,Conv,implicit,5,5,unit,0,1.0,0.5878969430923462,0.6436867713928223
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s0-10-20-30_ddb827cc4a,ConvNet amplitude control,Conv,implicit,5,5,unit,0,1.05,0.6082069277763367,0.6740484237670898
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s1-10-20-30_5760f36146,ConvNet amplitude control,Conv,implicit,5,5,varied,1,0.95,0.9700198173522949,1.0087605714797974
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s1-10-20-30_5760f36146,ConvNet amplitude control,Conv,implicit,5,5,varied,1,1.0,0.9739046096801758,1.009031891822815
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s1-10-20-30_5760f36146,ConvNet amplitude control,Conv,implicit,5,5,varied,1,1.05,0.977563738822937,1.0091955661773682
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s1-10-20-30_9399c74f5e,ConvNet amplitude control,Conv,implicit,5,5,unit,1,0.95,0.7063007950782776,0.6532196998596191
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s1-10-20-30_9399c74f5e,ConvNet amplitude control,Conv,implicit,5,5,unit,1,1.0,0.708979070186615,0.6767265796661377
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s1-10-20-30_9399c74f5e,ConvNet amplitude control,Conv,implicit,5,5,unit,1,1.05,0.7136762142181396,0.7002615332603455
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s2-10-20-30_18b0fdb165,ConvNet amplitude control,Conv,implicit,5,5,varied,2,0.95,0.9465625882148743,0.9892042279243469
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s2-10-20-30_18b0fdb165,ConvNet amplitude control,Conv,implicit,5,5,varied,2,1.0,0.9527052044868469,0.9912573099136353
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s2-10-20-30_18b0fdb165,ConvNet amplitude control,Conv,implicit,5,5,varied,2,1.05,0.9582158923149109,0.9929675459861755
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s2-10-20-30_8f066bd775,ConvNet amplitude control,Conv,implicit,5,5,unit,2,0.95,0.7780800461769104,0.7912148833274841
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s2-10-20-30_8f066bd775,ConvNet amplitude control,Conv,implicit,5,5,unit,2,1.0,0.7861414551734924,0.8078498840332031
+adv-3_fd-1.0-1_Conv_sup_N5_H5_s2-10-20-30_8f066bd775,ConvNet amplitude control,Conv,implicit,5,5,unit,2,1.05,0.7948311567306519,0.8249542713165283
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s0-10-20-30_32765fdb06,FNO shared five-step data,FNO,implicit,1,5,unit,0,0.95,1.1051939725875854,1.2382270097732544
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s0-10-20-30_32765fdb06,FNO shared five-step data,FNO,implicit,1,5,unit,0,1.0,1.1047064065933228,1.222486138343811
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s0-10-20-30_32765fdb06,FNO shared five-step data,FNO,implicit,1,5,unit,0,1.05,1.1042629480361938,1.2090903520584106
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s1-10-20-30_14dc8c6fc5,FNO shared five-step data,FNO,implicit,1,5,unit,1,0.95,1.0913443565368652,1.1594433784484863
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s1-10-20-30_14dc8c6fc5,FNO shared five-step data,FNO,implicit,1,5,unit,1,1.0,1.0905438661575317,1.1484699249267578
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s1-10-20-30_14dc8c6fc5,FNO shared five-step data,FNO,implicit,1,5,unit,1,1.05,1.0897579193115234,1.139146089553833
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s2-10-20-30_86189c1547,FNO shared five-step data,FNO,implicit,1,5,unit,2,0.95,1.079601526260376,1.1249529123306274
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s2-10-20-30_86189c1547,FNO shared five-step data,FNO,implicit,1,5,unit,2,1.0,1.0785001516342163,1.1161036491394043
+adv-3_fd-1.0-1_FNO_sup_N1_H5_s2-10-20-30_86189c1547,FNO shared five-step data,FNO,implicit,1,5,unit,2,1.05,1.0774402618408203,1.1085920333862305
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s0-10-20-30_ddb38473d7,FNO shared five-step data,FNO,implicit,2,5,unit,0,0.95,1.1036146879196167,1.2177659273147583
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s0-10-20-30_ddb38473d7,FNO shared five-step data,FNO,implicit,2,5,unit,0,1.0,1.1031039953231812,1.2031848430633545
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s0-10-20-30_ddb38473d7,FNO shared five-step data,FNO,implicit,2,5,unit,0,1.05,1.1026241779327393,1.1906614303588867
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s1-10-20-30_e6ab6a7b47,FNO shared five-step data,FNO,implicit,2,5,unit,1,0.95,1.0940055847167969,1.1712125539779663
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s1-10-20-30_e6ab6a7b47,FNO shared five-step data,FNO,implicit,2,5,unit,1,1.0,1.0933148860931396,1.1595765352249146
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s1-10-20-30_e6ab6a7b47,FNO shared five-step data,FNO,implicit,2,5,unit,1,1.05,1.092632532119751,1.1496801376342773
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s2-10-20-30_6f52550cc0,FNO shared five-step data,FNO,implicit,2,5,unit,2,0.95,1.0832387208938599,1.1357662677764893
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s2-10-20-30_6f52550cc0,FNO shared five-step data,FNO,implicit,2,5,unit,2,1.0,1.0822172164916992,1.126265525817871
+adv-3_fd-1.0-1_FNO_sup_N2_H5_s2-10-20-30_6f52550cc0,FNO shared five-step data,FNO,implicit,2,5,unit,2,1.05,1.0812296867370605,1.1181960105895996
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s0-10-20-30_2c664a519d,FNO shared five-step data,FNO,implicit,5,5,unit,0,0.95,2.6225521564483643,2.6553969383239746
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s0-10-20-30_2c664a519d,FNO shared five-step data,FNO,implicit,5,5,unit,0,1.0,2.6231489181518555,2.420583486557007
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s0-10-20-30_2c664a519d,FNO shared five-step data,FNO,implicit,5,5,unit,0,1.05,1.9598380327224731,2.5448787212371826
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s1-10-20-30_f6b2bdad24,FNO shared five-step data,FNO,implicit,5,5,unit,1,0.95,1.0965434312820435,1.1834430694580078
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s1-10-20-30_f6b2bdad24,FNO shared five-step data,FNO,implicit,5,5,unit,1,1.0,1.0959798097610474,1.171105146408081
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s1-10-20-30_f6b2bdad24,FNO shared five-step data,FNO,implicit,5,5,unit,1,1.05,1.0954183340072632,1.1606367826461792
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s2-10-20-30_6c7a913dec,FNO shared five-step data,FNO,implicit,5,5,unit,2,0.95,1.078493356704712,1.1211133003234863
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s2-10-20-30_6c7a913dec,FNO shared five-step data,FNO,implicit,5,5,unit,2,1.0,1.0773718357086182,1.1125357151031494
+adv-3_fd-1.0-1_FNO_sup_N5_H5_s2-10-20-30_6c7a913dec,FNO shared five-step data,FNO,implicit,5,5,unit,2,1.05,1.076299786567688,1.105342149734497

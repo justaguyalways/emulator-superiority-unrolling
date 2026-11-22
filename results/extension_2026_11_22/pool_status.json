@@ -1,0 +1,254 @@
+[
+  {
+    "group": "conv",
+    "index": 0,
+    "returncode": 0,
+    "elapsed_s": 4.146156072616577,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_00.log"
+  },
+  {
+    "group": "conv",
+    "index": 4,
+    "returncode": 0,
+    "elapsed_s": 4.146625995635986,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_04.log"
+  },
+  {
+    "group": "conv",
+    "index": 5,
+    "returncode": 0,
+    "elapsed_s": 4.146801948547363,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_05.log"
+  },
+  {
+    "group": "conv",
+    "index": 2,
+    "returncode": 0,
+    "elapsed_s": 4.157974004745483,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_02.log"
+  },
+  {
+    "group": "conv",
+    "index": 3,
+    "returncode": 0,
+    "elapsed_s": 4.1758058071136475,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_03.log"
+  },
+  {
+    "group": "conv",
+    "index": 1,
+    "returncode": 0,
+    "elapsed_s": 4.177109956741333,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_01.log"
+  },
+  {
+    "group": "conv",
+    "index": 8,
+    "returncode": 0,
+    "elapsed_s": 3.387122869491577,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_08.log"
+  },
+  {
+    "group": "conv",
+    "index": 9,
+    "returncode": 0,
+    "elapsed_s": 3.4119338989257812,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_09.log"
+  },
+  {
+    "group": "conv",
+    "index": 10,
+    "returncode": 0,
+    "elapsed_s": 3.454908847808838,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_10.log"
+  },
+  {
+    "group": "conv",
+    "index": 6,
+    "returncode": 0,
+    "elapsed_s": 3.4910359382629395,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_06.log"
+  },
+  {
+    "group": "conv",
+    "index": 7,
+    "returncode": 0,
+    "elapsed_s": 3.506732225418091,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_07.log"
+  },
+  {
+    "group": "conv",
+    "index": 11,
+    "returncode": 0,
+    "elapsed_s": 3.532824993133545,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_11.log"
+  },
+  {
+    "group": "conv",
+    "index": 12,
+    "returncode": 0,
+    "elapsed_s": 3.4343769550323486,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_12.log"
+  },
+  {
+    "group": "conv",
+    "index": 13,
+    "returncode": 0,
+    "elapsed_s": 3.4900901317596436,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_13.log"
+  },
+  {
+    "group": "conv",
+    "index": 16,
+    "returncode": 0,
+    "elapsed_s": 3.412282943725586,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_16.log"
+  },
+  {
+    "group": "conv",
+    "index": 14,
+    "returncode": 0,
+    "elapsed_s": 3.4369521141052246,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_14.log"
+  },
+  {
+    "group": "conv",
+    "index": 15,
+    "returncode": 0,
+    "elapsed_s": 3.4772002696990967,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_15.log"
+  },
+  {
+    "group": "conv",
+    "index": 17,
+    "returncode": 0,
+    "elapsed_s": 3.438030958175659,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_17.log"
+  },
+  {
+    "group": "conv",
+    "index": 18,
+    "returncode": 0,
+    "elapsed_s": 3.365203857421875,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_18.log"
+  },
+  {
+    "group": "conv",
+    "index": 19,
+    "returncode": 0,
+    "elapsed_s": 3.395220994949341,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_19.log"
+  },
+  {
+    "group": "conv",
+    "index": 20,
+    "returncode": 0,
+    "elapsed_s": 3.4172699451446533,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_20.log"
+  },
+  {
+    "group": "conv",
+    "index": 21,
+    "returncode": 0,
+    "elapsed_s": 3.418790102005005,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_21.log"
+  },
+  {
+    "group": "conv",
+    "index": 22,
+    "returncode": 0,
+    "elapsed_s": 3.447439193725586,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_22.log"
+  },
+  {
+    "group": "conv",
+    "index": 23,
+    "returncode": 0,
+    "elapsed_s": 3.468740701675415,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_23.log"
+  },
+  {
+    "group": "conv",
+    "index": 27,
+    "returncode": 0,
+    "elapsed_s": 3.4390347003936768,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_27.log"
+  },
+  {
+    "group": "conv",
+    "index": 29,
+    "returncode": 0,
+    "elapsed_s": 3.4465861320495605,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_29.log"
+  },
+  {
+    "group": "conv",
+    "index": 28,
+    "returncode": 0,
+    "elapsed_s": 3.58058500289917,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_28.log"
+  },
+  {
+    "group": "conv",
+    "index": 30,
+    "returncode": 0,
+    "elapsed_s": 343.24933910369873,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_30.log"
+  },
+  {
+    "group": "conv",
+    "index": 24,
+    "returncode": 0,
+    "elapsed_s": 389.34873700141907,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_24.log"
+  },
+  {
+    "group": "conv",
+    "index": 31,
+    "returncode": 0,
+    "elapsed_s": 409.1497039794922,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_31.log"
+  },
+  {
+    "group": "conv",
+    "index": 32,
+    "returncode": 0,
+    "elapsed_s": 481.8618927001953,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_32.log"
+  },
+  {
+    "group": "conv",
+    "index": 26,
+    "returncode": 0,
+    "elapsed_s": 697.5712859630585,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_26.log"
+  },
+  {
+    "group": "conv",
+    "index": 25,
+    "returncode": 0,
+    "elapsed_s": 699.8085379600525,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_25.log"
+  },
+  {
+    "group": "conv",
+    "index": 33,
+    "returncode": 0,
+    "elapsed_s": 1230.5933299064636,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_33.log"
+  },
+  {
+    "group": "conv",
+    "index": 34,
+    "returncode": 0,
+    "elapsed_s": 1209.5246527194977,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_34.log"
+  },
+  {
+    "group": "conv",
+    "index": 35,
+    "returncode": 0,
+    "elapsed_s": 1190.7899680137634,
+    "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_35.log"
+  }
+]

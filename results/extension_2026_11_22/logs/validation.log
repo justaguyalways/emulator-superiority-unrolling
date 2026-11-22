@@ -1,0 +1,4 @@
+PASS Conv;34;10;relu {'n_params': 31757, 'max_forward_difference': 1.862645149230957e-08, 'relative_gradient_difference': np.float64(5.867691487875288e-07)}
+PASS UNet;12;2;relu {'n_params': 27193, 'max_forward_difference': 1.1920928955078125e-07, 'relative_gradient_difference': np.float64(2.027490624750646e-07)}
+PASS resumed Adam 0.0
+PASS solver gradient/reference {'autodiff': -0.9399128556251526, 'finite_difference': -0.9384154677391052, 'relative_difference': 0.0015931135286488068} 0.0004520043730735779

@@ -1,0 +1,64 @@
+{"event": "launch", "group": "conv", "index": 0, "pid": 5233}{"event": "launch", "group": "fixedH", "index": 0, "pid": 5234}
+
+{"event": "launch", "group": "burgers", "index": 0, "pid": 5235}
+{"event": "launch", "group": "burgers", "index": 1, "pid": 5236}
+{"event": "launch", "group": "conv", "index": 1, "pid": 5237}{"event": "launch", "group": "fixedH", "index": 1, "pid": 5238}
+
+{"event": "finished", "group": "fixedH", "index": 1, "returncode": 0, "elapsed_s": 4.7623610496521, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_01.log"}
+{"event": "launch", "group": "burgers", "index": 2, "pid": 5336}
+{"event": "finished", "group": "fixedH", "index": 0, "returncode": 0, "elapsed_s": 4.771911144256592, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_00.log"}
+{"event": "launch", "group": "conv", "index": 2, "pid": 5337}
+{"event": "finished", "group": "conv", "index": 0, "returncode": 0, "elapsed_s": 4.775446176528931, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_00.log"}
+{"event": "launch", "group": "fixedH", "index": 2, "pid": 5339}
+{"event": "finished", "group": "fixedH", "index": 2, "returncode": 0, "elapsed_s": 155.9484899044037, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_02.log"}
+{"event": "launch", "group": "burgers", "index": 3, "pid": 5651}
+{"event": "finished", "group": "conv", "index": 1, "returncode": 0, "elapsed_s": 271.66153383255005, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_01.log"}
+{"event": "launch", "group": "conv", "index": 3, "pid": 5992}
+{"event": "finished", "group": "conv", "index": 2, "returncode": 0, "elapsed_s": 338.24060797691345, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_02.log"}
+{"event": "launch", "group": "fixedH", "index": 3, "pid": 6065}
+{"event": "finished", "group": "fixedH", "index": 3, "returncode": 0, "elapsed_s": 387.3098039627075, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_03.log"}
+{"event": "launch", "group": "burgers", "index": 4, "pid": 8099}
+{"event": "finished", "group": "conv", "index": 3, "returncode": 0, "elapsed_s": 601.0052399635315, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_03.log"}
+{"event": "launch", "group": "conv", "index": 4, "pid": 8746}
+{"event": "finished", "group": "burgers", "index": 0, "returncode": 0, "elapsed_s": 1448.0921070575714, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_00.log"}
+{"event": "launch", "group": "fixedH", "index": 4, "pid": 10640}
+{"event": "finished", "group": "conv", "index": 4, "returncode": 0, "elapsed_s": 678.5135779380798, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_04.log"}
+{"event": "launch", "group": "burgers", "index": 5, "pid": 10995}
+{"event": "finished", "group": "burgers", "index": 1, "returncode": 0, "elapsed_s": 1800.79803109169, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_01.log"}
+{"event": "launch", "group": "conv", "index": 5, "pid": 11591}
+{"event": "finished", "group": "burgers", "index": 2, "returncode": 0, "elapsed_s": 1803.4420218467712, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_02.log"}
+{"event": "launch", "group": "fixedH", "index": 5, "pid": 11800}
+{"event": "finished", "group": "fixedH", "index": 4, "returncode": 0, "elapsed_s": 459.4921979904175, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_04.log"}
+{"event": "launch", "group": "burgers", "index": 6, "pid": 12057}
+{"event": "finished", "group": "fixedH", "index": 5, "returncode": 0, "elapsed_s": 555.910975933075, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_05.log"}
+{"event": "launch", "group": "conv", "index": 6, "pid": 13371}
+{"event": "finished", "group": "conv", "index": 5, "returncode": 0, "elapsed_s": 827.3381099700928, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_05.log"}
+{"event": "launch", "group": "fixedH", "index": 6, "pid": 13896}
+{"event": "finished", "group": "fixedH", "index": 6, "returncode": 0, "elapsed_s": 1175.6044790744781, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_06.log"}
+{"event": "launch", "group": "burgers", "index": 7, "pid": 16466}
+{"event": "finished", "group": "burgers", "index": 3, "returncode": 0, "elapsed_s": 3803.8068010807037, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_03.log"}
+{"event": "launch", "group": "conv", "index": 7, "pid": 16845}
+{"event": "finished", "group": "conv", "index": 6, "returncode": 0, "elapsed_s": 1781.8646359443665, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_06.log"}
+{"event": "launch", "group": "fixedH", "index": 7, "pid": 16976}
+{"event": "finished", "group": "burgers", "index": 4, "returncode": 0, "elapsed_s": 3856.8636679649353, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_04.log"}
+{"event": "launch", "group": "burgers", "index": 8, "pid": 17739}
+{"event": "finished", "group": "fixedH", "index": 7, "returncode": 0, "elapsed_s": 977.5391061306, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_07.log"}
+{"event": "launch", "group": "conv", "index": 8, "pid": 18882}
+{"event": "finished", "group": "burgers", "index": 5, "returncode": 0, "elapsed_s": 3869.9622671604156, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_05.log"}
+{"event": "launch", "group": "fixedH", "index": 8, "pid": 19336}
+{"event": "finished", "group": "conv", "index": 7, "returncode": 0, "elapsed_s": 1554.4123270511627, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_07.log"}
+{"event": "launch", "group": "burgers", "index": 9, "pid": 19466}
+{"event": "finished", "group": "fixedH", "index": 8, "returncode": 0, "elapsed_s": 1062.56507396698, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_08.log"}
+{"event": "launch", "group": "conv", "index": 9, "pid": 21138}
+{"event": "finished", "group": "conv", "index": 8, "returncode": 0, "elapsed_s": 1672.1635358333588, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_08.log"}
+{"event": "launch", "group": "fixedH", "index": 9, "pid": 21545}
+{"event": "finished", "group": "conv", "index": 9, "returncode": 0, "elapsed_s": 396.14672112464905, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_09.log"}
+{"event": "launch", "group": "burgers", "index": 10, "pid": 21582}
+{"event": "finished", "group": "fixedH", "index": 9, "returncode": 0, "elapsed_s": 239.70555305480957, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_09.log"}
+{"event": "launch", "group": "conv", "index": 10, "pid": 21755}
+{"event": "finished", "group": "conv", "index": 10, "returncode": 0, "elapsed_s": 396.1604359149933, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/conv_10.log"}
+{"event": "launch", "group": "fixedH", "index": 10, "pid": 22570}
+{"event": "finished", "group": "fixedH", "index": 10, "returncode": 0, "elapsed_s": 221.81545400619507, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/fixedH_10.log"}
+{"event": "launch", "group": "burgers", "index": 11, "pid": 22809}
+{"event": "finished", "group": "burgers", "index": 9, "returncode": 0, "elapsed_s": 5251.18076300621, "log": "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/results/extension_2026_11_22/logs/burgers_09.log"}
+{"event": "launch", "group": "conv", "index": 11, "pid": 32342}
