@@ -1,0 +1,57 @@
+{
+  "label": "train_1102",
+  "seed": 1102,
+  "flows": 128,
+  "horizon": 8,
+  "config": {
+    "coarse_points": 32,
+    "reference_points": 96,
+    "domain": 6.283185307179586,
+    "viscosity": 0.01,
+    "drag": -0.1,
+    "forcing_mode": 4,
+    "forcing_scale": 1.0,
+    "output_dt": 0.2,
+    "teacher_substeps": 10,
+    "reference_substeps": 20,
+    "warmup_steps": 300,
+    "training_horizon": 8,
+    "test_horizon": 100,
+    "primary_horizon": 20,
+    "hidden_channels": 12,
+    "fno_modes": 8,
+    "fno_blocks": 3
+  },
+  "provenance": {
+    "dependencies": {
+      "jax": "0.4.38",
+      "jaxlib": "0.4.38",
+      "exponax": "0.1.0",
+      "pdequinox": "0.1.2",
+      "equinox": "0.13.8",
+      "optax": "0.2.5",
+      "numpy": "2.5.5"
+    },
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "source_sha256": {
+      "turbulence_core.py": "bebe881453f071935dc584c67fa518bf767b8e59bfd23e8d7ee5bbb6040a5194"
+    }
+  },
+  "initial_RMS_min_median_max": [
+    2.859528064727783,
+    3.5103511810302734,
+    4.218691825866699
+  ],
+  "initial_maxabs_min_median_max": [
+    8.74921703338623,
+    10.505864143371582,
+    11.975629806518555
+  ],
+  "pairwise_initial_correlation_median": 0.2554989457130432,
+  "global_training_scale": 3.5095152854919434,
+  "seconds": 10.419887065887451,
+  "npz_sha256": "c58a4d64c0f17328e34b82649ed2847d9f26ac89812ce4e3616ce5151348213c",
+  "source": "rough solver only; no fine-reference states or targets"
+}

@@ -1,0 +1,18 @@
+warmup physical time 10 RMS [3.9984095 3.044955  3.3820193 4.0399475]
+warmup physical time 20 RMS [3.3469317 3.2077372 3.321354  3.6385653]
+warmup physical time 30 RMS [3.4318466 2.6311927 3.5925686 3.7489488]
+warmup physical time 40 RMS [3.352631  3.9157667 3.6331825 4.190273 ]
+warmup physical time 50 RMS [3.3222795 3.5711024 3.1659975 2.659854 ]
+warmup physical time 60 RMS [3.6461952 3.53072   3.5803719 4.013784 ]
+reference 64 finite True
+reference 96 finite True
+reference 128 finite True
+{'config': {'coarse_points': 32, 'reference_points': 96, 'domain': 6.283185307179586, 'viscosity': 0.01, 'drag': -0.1, 'forcing_mode': 4, 'forcing_scale': 1.0, 'output_dt': 0.2, 'teacher_substeps': 10, 'reference_substeps': 20, 'warmup_steps': 300, 'training_horizon': 8, 'test_horizon': 100, 'primary_horizon': 20, 'hidden_channels': 12, 'fno_modes': 8, 'fno_blocks': 3}, 'provenance': {'dependencies': {'jax': '0.4.38', 'jaxlib': '0.4.38', 'exponax': '0.1.0', 'pdequinox': '0.1.2', 'equinox': '0.13.8', 'optax': '0.2.5', 'numpy': '2.5.5'}, 'devices': ['TFRT_CPU_0'], 'source_sha256': {'turbulence_core.py': '4cdc759aa5bc1d18121efb1bbec71d0b6619e8c8e64e82c02e4d4e5b9e55a540'}}, 'warmup_rms_by_time': array([[1.3527255, 1.0903274, 0.9744684, 0.7029978],
+       [3.9984095, 3.044955 , 3.3820193, 4.0399475],
+       [3.3469317, 3.2077372, 3.321354 , 3.6385653],
+       [3.4318466, 2.6311927, 3.5925686, 3.7489488],
+       [3.352631 , 3.9157667, 3.6331825, 4.190273 ],
+       [3.3222795, 3.5711024, 3.1659975, 2.659854 ],
+       [3.6461952, 3.53072  , 3.5803719, 4.013784 ]], dtype=float32), 'teacher_reference_mean_RMSE': np.float32(1.0916909), 'teacher_reference_RMSE_at_20': np.float32(2.2158341), '64_to_96_reference_mean_RMSE': np.float32(0.03207736), '96_to_128_reference_mean_RMSE': np.float32(0.0008662734), '96_to_128_fraction_of_teacher_gap': np.float32(0.0007935153), 'resize_roundtrip_max_difference': 3.814697265625e-06, 'nonforcing_energy_fraction': 0.7994497418403625, 'elapsed_physics_s': 12.589968204498291}
+training benchmark 1 0.6397228240966797 0.43938469886779785
+training benchmark 4 1.5954680442810059 1.2683489322662354

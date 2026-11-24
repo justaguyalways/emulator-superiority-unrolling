@@ -1,0 +1,31 @@
+{
+  "config": {
+    "coarse_points": 32,
+    "reference_points": 96,
+    "domain": 6.283185307179586,
+    "viscosity": 0.01,
+    "drag": -0.1,
+    "forcing_mode": 4,
+    "forcing_scale": 1.0,
+    "output_dt": 0.2,
+    "teacher_substeps": 10,
+    "reference_substeps": 20,
+    "warmup_steps": 300,
+    "training_horizon": 8,
+    "test_horizon": 100,
+    "primary_horizon": 20,
+    "hidden_channels": 12,
+    "fno_modes": 8,
+    "fno_blocks": 3
+  },
+  "test_flows": 64,
+  "primary_steps": 20,
+  "teacher_mean_resolved_RMSE_1_20": 0.9158965945243835,
+  "refinement_mean_resolved_RMSE_1_20": 0.000646812841296196,
+  "refinement_fraction_of_teacher_gap": 0.0007062072982080281,
+  "refinement_max_RMSE_fraction_of_mean_teacher_gap": 0.004767901264131069,
+  "reference_npz_sha256": "42325c65b35acf1e2fec92ca96b7796d031d3cc1bf53b6d06fb8219d5aaf6d2e",
+  "unresolved_enstrophy_fraction_mean_1_20": 0.016515862196683884,
+  "unresolved_kinetic_energy_fraction_mean_1_20": 0.0010817458387464285,
+  "note": "All references are evaluation-only. Every fine solve starts with the same spectrally interpolated coarse field."
+}

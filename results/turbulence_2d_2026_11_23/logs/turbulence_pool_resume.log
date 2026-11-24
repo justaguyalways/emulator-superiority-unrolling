@@ -1,0 +1,19 @@
+{"event": "launch", "name": "data1101_N4_seed0", "pid": 17217}{"event": "launch", "name": "data1102_N1_seed0", "pid": 17216}
+
+{"event": "launch", "name": "data1101_N1_seed0", "pid": 17218}
+{"name": "data1102_N1_seed0", "returncode": 0, "seconds": 1.4363501071929932}
+{"event": "launch", "name": "data1102_N4_seed0", "pid": 17223}
+{"event": "launch", "name": "data1101_N1_seed1", "pid": 17224}
+{"name": "data1101_N1_seed0", "returncode": 0, "seconds": 1.4367432594299316}
+{"name": "data1101_N1_seed1", "returncode": 0, "seconds": 58.394932985305786}
+{"event": "launch", "name": "data1101_N4_seed1", "pid": 17421}
+{"name": "data1101_N4_seed0", "returncode": 0, "seconds": 449.88903999328613}
+{"event": "launch", "name": "data1102_N1_seed1", "pid": 17986}
+{"name": "data1102_N1_seed1", "returncode": 0, "seconds": 313.4734492301941}
+{"event": "launch", "name": "data1102_N4_seed1", "pid": 18626}
+{"name": "data1102_N4_seed0", "returncode": 0, "seconds": 779.063374042511}
+{"event": "launch", "name": "data1101_N1_seed2", "pid": 18632}
+{"name": "data1101_N4_seed1", "returncode": 0, "seconds": 1017.8442490100861}
+{"event": "launch", "name": "data1101_N4_seed2", "pid": 18999}
+{"name": "data1101_N1_seed2", "returncode": 0, "seconds": 311.81719422340393}
+{"event": "launch", "name": "data1102_N1_seed2", "pid": 19002}

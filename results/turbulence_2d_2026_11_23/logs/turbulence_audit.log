@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "planned_models": 12,
+  "observed_outcomes": 12,
+  "full_budget_completed": 12,
+  "training_failures_retained": [],
+  "nonfinite_forecasts_retained": [],
+  "training_datasets": 2,
+  "initializations_each": 3,
+  "test_flows": 64,
+  "primary_steps": 20,
+  "extended_steps": 100,
+  "parameters_per_model": 410753,
+  "training_provenance_versions": 1,
+  "maximum_recomputed_primary_score_difference": 0.0,
+  "maximum_full_field_error_reconstruction_relative_difference": 2.83670516409984e-07,
+  "maximum_spectrum_energy_Parseval_difference": 3.5762786865234375e-07,
+  "all_source_data_model_hashes_match": true,
+  "numerical_validation_passed": true,
+  "reference_refinement_fraction_of_teacher_gap": 0.0007062072982080281
+}

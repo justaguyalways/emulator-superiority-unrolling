@@ -1,0 +1,22 @@
+START data9101_N1_seed9003_w16_m10_b4 from 0
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 300, "loss": 0.06529053300619125, "train_s": 4.31}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 600, "loss": 0.005045855417847633, "train_s": 7.85}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 900, "loss": 0.001786077511496842, "train_s": 11.39}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 1200, "loss": 0.0010461502242833376, "train_s": 15.07}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 1500, "loss": 0.0007398104062303901, "train_s": 18.78}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 1800, "loss": 0.0005558940465562046, "train_s": 22.32}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 2100, "loss": 0.0004425217630341649, "train_s": 25.99}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 2400, "loss": 0.00036795419873669744, "train_s": 29.53}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 2700, "loss": 0.00030847781454212964, "train_s": 33.17}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 3000, "loss": 0.0002676573640201241, "train_s": 36.72}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 3300, "loss": 0.00022394314873963594, "train_s": 40.27}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 3600, "loss": 0.00019756772962864488, "train_s": 43.9}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 3900, "loss": 0.00017324360669590533, "train_s": 47.53}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 4200, "loss": 0.00016405088535975665, "train_s": 51.17}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 4500, "loss": 0.00014818337513133883, "train_s": 54.73}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 4800, "loss": 0.0001354139531031251, "train_s": 58.31}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 5100, "loss": 0.00012552848784253, "train_s": 61.86}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 5400, "loss": 0.00012093636178178713, "train_s": 65.41}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 5700, "loss": 0.00011807892587967217, "train_s": 68.97}
+{"run": "data9101_N1_seed9003_w16_m10_b4", "updates": 6000, "loss": 0.00011720781185431406, "train_s": 72.66}
+FINISHED data9101_N1_seed9003_w16_m10_b4 validation normalized MSE 0.0022339769639074802

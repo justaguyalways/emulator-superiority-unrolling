@@ -1,0 +1,9 @@
+{
+  "subset": "Predetermined first eight of the 64 test flows; same subset for all models.",
+  "reference_refinement_fraction_of_teacher_gap_primary": 0.0010110404109582305,
+  "reference_refinement_fraction_of_teacher_gap_later": 0.049197424203157425,
+  "maximum_model_R100_change_on_subset": 0.0009900927543640137,
+  "maximum_model_later_ratio_change_on_subset": 0.0010402798652648926,
+  "zero_later_ratio_subset_reference96": 0.8654310703277588,
+  "zero_later_ratio_subset_reference128": 0.8657989501953125
+}

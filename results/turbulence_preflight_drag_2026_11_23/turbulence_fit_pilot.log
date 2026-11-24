@@ -1,0 +1,12 @@
+START data9101_N1_seed9002 from 0
+{"run": "data9101_N1_seed9002", "updates": 300, "loss": 0.02722552977502346, "train_s": 2.63}
+{"run": "data9101_N1_seed9002", "updates": 600, "loss": 0.0106766102835536, "train_s": 4.78}
+{"run": "data9101_N1_seed9002", "updates": 900, "loss": 0.006292334292083979, "train_s": 6.89}
+{"run": "data9101_N1_seed9002", "updates": 1200, "loss": 0.004921760410070419, "train_s": 8.98}
+{"run": "data9101_N1_seed9002", "updates": 1500, "loss": 0.004047047346830368, "train_s": 11.1}
+{"run": "data9101_N1_seed9002", "updates": 1800, "loss": 0.003609072184190154, "train_s": 13.29}
+{"run": "data9101_N1_seed9002", "updates": 2100, "loss": 0.003266138955950737, "train_s": 15.75}
+{"run": "data9101_N1_seed9002", "updates": 2400, "loss": 0.003011757042258978, "train_s": 17.95}
+{"run": "data9101_N1_seed9002", "updates": 2700, "loss": 0.0029433351010084152, "train_s": 20.11}
+{"run": "data9101_N1_seed9002", "updates": 3000, "loss": 0.002896036021411419, "train_s": 22.2}
+FINISHED data9101_N1_seed9002 validation normalized MSE 0.009839770384132862

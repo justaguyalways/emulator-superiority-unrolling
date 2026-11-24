@@ -1,0 +1,65 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "rows": [
+    {
+      "method": "FNO",
+      "batch_size": 8,
+      "forecast_steps": 20,
+      "median_seconds": 0.08115720800196868,
+      "milliseconds_per_field_step": 0.5072325500123043,
+      "all_repeats_seconds": [
+        0.08122412499869824,
+        0.08115720800196868,
+        0.08097879200067837,
+        0.08097533300315263,
+        0.08135895799932769
+      ]
+    },
+    {
+      "method": "teacher",
+      "batch_size": 8,
+      "forecast_steps": 20,
+      "median_seconds": 0.042095499997230945,
+      "milliseconds_per_field_step": 0.2630968749826934,
+      "all_repeats_seconds": [
+        0.04249145799985854,
+        0.04227779099892359,
+        0.042095499997230945,
+        0.042019541000627214,
+        0.04205437500058906
+      ]
+    },
+    {
+      "method": "refined48",
+      "batch_size": 8,
+      "forecast_steps": 20,
+      "median_seconds": 0.38357320800059824,
+      "milliseconds_per_field_step": 2.397332550003739,
+      "all_repeats_seconds": [
+        0.3830347080001957,
+        0.3838780410005711,
+        0.3864337080012774,
+        0.38357320800059824,
+        0.38317479199758964
+      ]
+    },
+    {
+      "method": "reference96",
+      "batch_size": 8,
+      "forecast_steps": 20,
+      "median_seconds": 1.461964458998409,
+      "milliseconds_per_field_step": 9.137277868740057,
+      "all_repeats_seconds": [
+        1.4615848749999714,
+        1.460767541997484,
+        1.461964458998409,
+        1.4624689579977712,
+        1.4634177919979265
+      ]
+    }
+  ],
+  "notes": "Compiled, synchronized, same batch size and forecast interval. Compilation excluded; CPU otherwise idle. One representative frozen FNO; both recipes share inference architecture."
+}

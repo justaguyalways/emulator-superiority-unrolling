@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/validate_turbulence.py", line 87, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/validate_turbulence.py", line 64, in main
+    assert relative<.02,(dot,fd,relative)
+           ^^^^^^^^^^^^
+AssertionError: (Array(0.00011801, dtype=float32), Array(0.00013858, dtype=float32), 0.1742861568927765)

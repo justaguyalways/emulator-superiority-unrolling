@@ -1,0 +1,61 @@
+{
+  "config": {
+    "flow": {
+      "coarse_points": 32,
+      "reference_points": 96,
+      "domain": 6.283185307179586,
+      "viscosity": 0.01,
+      "drag": -0.1,
+      "forcing_mode": 4,
+      "forcing_scale": 1.0,
+      "output_dt": 0.2,
+      "teacher_substeps": 10,
+      "reference_substeps": 20,
+      "warmup_steps": 300,
+      "training_horizon": 8,
+      "test_horizon": 100,
+      "primary_horizon": 20,
+      "hidden_channels": 12,
+      "fno_modes": 8,
+      "fno_blocks": 3
+    },
+    "training_dataset": 9101,
+    "initialization_seed": 9002,
+    "unroll": 1,
+    "training_horizon": 8,
+    "budget": 3000,
+    "batch": 8,
+    "learning_rate": 0.001,
+    "warmup": 500,
+    "clip_norm": 1.0,
+    "final_learning_rate": 1e-05,
+    "scale": 3.5457684993743896,
+    "pilot": true,
+    "training_flows": 32,
+    "data_sha256": "e458eacdc2ced3a3a63262391c2d2602ec928fb25b6ba78a4a60ac63e87abb56",
+    "validation_sha256": "1ccf696f96fe86531d6647994ba583a124f66bd582a6045c02ea9a1c45f68b73"
+  },
+  "provenance": {
+    "dependencies": {
+      "jax": "0.4.38",
+      "jaxlib": "0.4.38",
+      "exponax": "0.1.0",
+      "pdequinox": "0.1.2",
+      "equinox": "0.13.8",
+      "optax": "0.2.5",
+      "numpy": "2.5.5"
+    },
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "source_sha256": {
+      "turbulence_core.py": "bebe881453f071935dc584c67fa518bf767b8e59bfd23e8d7ee5bbb6040a5194",
+      "train_turbulence.py": "1b90b8ebeff60a0cb3fe5f72da49761725453860a612e1d34785add6f0a1c592"
+    }
+  },
+  "n_params": 111109,
+  "training_information": "Coarse training and validation trajectories only. No fine reference loaded.",
+  "completed_updates": 3000,
+  "training_seconds": 22.198020458221436,
+  "checkpoint_file": "checkpoint_003000.eqx"
+}

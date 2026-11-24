@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "provenance": {
+    "dependencies": {
+      "jax": "0.4.38",
+      "jaxlib": "0.4.38",
+      "exponax": "0.1.0",
+      "pdequinox": "0.1.2",
+      "equinox": "0.13.8",
+      "optax": "0.2.5",
+      "numpy": "2.5.5"
+    },
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "source_sha256": {
+      "turbulence_core.py": "4cdc759aa5bc1d18121efb1bbec71d0b6619e8c8e64e82c02e4d4e5b9e55a540"
+    }
+  },
+  "fourier_interpolation_roundtrip_max_error": 3.5762786865234375e-07,
+  "Taylor_Green_relative_error_after_time_2": 7.644304105269839e-07,
+  "forced_Stokes_max_error": 1.0253422715322813e-06,
+  "nonlinear_advection_enstrophy_defect": 8.847564458847046e-09,
+  "nonlinear_advection_kinetic_energy_defect": 1.862645149230957e-09,
+  "resumed_Adam_parameter_difference": 0.0,
+  "FNO_directional_derivative_relative_difference": 0.001263068406842649,
+  "reference_time_refinement_RMS_difference": 4.4574906496563926e-05,
+  "reference_time_refinement_fraction_of_teacher_gap": 4.083106910629285e-05,
+  "n_trainable_parameters": 410753,
+  "fixed_forcing_is_not_trainable": true
+}

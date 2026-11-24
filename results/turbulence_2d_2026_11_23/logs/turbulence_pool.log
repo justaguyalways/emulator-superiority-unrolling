@@ -1,0 +1,7 @@
+{"event": "launch", "name": "data1101_N1_seed0", "pid": 14008}
+{"event": "launch", "name": "data1101_N4_seed0", "pid": 14009}
+{"event": "launch", "name": "data1102_N1_seed0", "pid": 14010}
+{"name": "data1102_N1_seed0", "returncode": 0, "seconds": 284.3137991428375}
+{"event": "launch", "name": "data1102_N4_seed0", "pid": 15297}
+{"name": "data1101_N1_seed0", "returncode": 0, "seconds": 284.3187918663025}
+{"event": "launch", "name": "data1101_N1_seed1", "pid": 15298}

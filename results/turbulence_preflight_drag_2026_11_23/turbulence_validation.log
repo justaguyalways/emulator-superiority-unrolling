@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/validate_turbulence.py", line 87, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/validate_turbulence.py", line 23, in main
+    assert analytic<2e-5,analytic
+           ^^^^^^^^^^^^^
+AssertionError: 0.18127210438251495

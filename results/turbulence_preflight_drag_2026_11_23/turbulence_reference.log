@@ -1,0 +1,15 @@
+reference batch 0 seconds 39.0
+reference batch 1 seconds 13.3
+Traceback (most recent call last):
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/turbulence_data.py", line 114, in <module>
+    coarse_data(args.pilot) if args.action=='coarse' else references()
+                                                          ^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/src/turbulence_data.py", line 83, in references
+    tight=rollout(build_solver(cfg,n=128,substeps=40,order=4),resize(x,128),h)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/.venv/lib/python3.12/site-packages/equinox/_jit.py", line 209, in __call__
+    return _call(self, False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinav/Work/CMU/10749 AI For Scientific Computing/Project/emulator-superiority-unrolling/.venv/lib/python3.12/site-packages/equinox/_jit.py", line 271, in _call
+    marker.block_until_ready()
+KeyboardInterrupt

@@ -129,3 +129,58 @@ runner received a serialization-only fix for nested nonfinite JSON values;
 it does not change training or evaluation. Existing results retain their original
 source hashes. Interrupted workers resumed saved Adam state; the resume check
 in `validation.json` agrees exactly with uninterrupted updates.
+
+## 2D forced-flow extension (completed November 24)
+
+The fixed protocol is in [TURBULENCE_EXPERIMENT_PLAN.md](TURBULENCE_EXPERIMENT_PLAN.md).
+All 12 prescribed FNO models completed 12,000 updates each with finite 100-step
+forecasts: two independent 128-flow training datasets, three initialization seeds,
+and supervised one-step versus four-step training on shared eight-step trajectories.
+Training, warmup, and validation use only the rough solver. Testing uses 64 held-out
+flows and an independently refined numerical reference.
+
+The physical problem is periodic 2D incompressible Navier-Stokes with Kolmogorov
+forcing, viscosity 0.01, scalar drag -0.1, and forcing-based Re=100. The rough
+solver uses 32x32 points; references use 96x96 and 128x128. The initial fields have
+multiple modes and naturally varying heights. This is a modest-Re forced-flow
+study, without a claim to a developed inertial range or high-Re turbulence.
+
+**Finding:** no model beats its teacher on the predefined 20-step score. Median
+error ratios are 1.127 (one-step training) and 1.160 (four-step). The 48-grid
+numerical control gives 0.121, while time refinement on the same 32-grid gives
+0.999, indicating a dominant spatial-resolution effect in this comparison.
+A zero-field control scores 0.885 in the later window despite zero energy,
+demonstrating a limitation of long-horizon pointwise superiority metrics.
+
+The [2D report](results/turbulence_2d_2026_11_23/Turbulence_2D_Results.pdf) and
+[complete results](results/turbulence_2d_2026_11_23/RESULTS.md) include seed and
+dataset ranges, conditional trajectory bootstraps, field and velocity errors,
+energy/enstrophy/spectrum checks, fixed-example plots, and error decomposition.
+The 2D implementation is independent of the authors' unlicensed repository.
+
+```bash
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/turbulence_data.py coarse
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/turbulence_data.py reference
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/validate_turbulence.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/run_turbulence_pool.py --workers 3
+.venv/bin/python src/turbulence_status.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/evaluate_turbulence.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/turbulence_long_reference.py
+# Benchmark after training workers have finished.
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/benchmark_turbulence.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/audit_turbulence.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/analyze_turbulence.py
+MPLCONFIGDIR=/tmp/emusup-mpl .venv/bin/python src/export_turbulence_report.py
+```
+
+Use the pinned dependencies in `requirements-extension.txt`. Numerical validation
+caught a doubled-drag convention in Exponax 0.1.0; the 2D subclass applies the
+declared scalar drag once and passes analytic decay and forcing checks. All main
+data were regenerated after that preflight correction. Earlier preflight artifacts
+are quarantined separately and are excluded from main results.
+
+`results/turbulence_2d_2026_11_23/audit.json` verifies the full grid, budgets,
+source/data/model hashes, score reconstruction, full-field projection identity,
+and spectral energy consistency. Final weights, optimizer checkpoints, data,
+losses, per-example metrics, and the executed numerical sources are retained.
+Checkpoint resumption was validated against uninterrupted Adam updates.

@@ -1,0 +1,6 @@
+train_9101 flows 8 / 32 elapsed 1.7
+train_9101 flows 16 / 32 elapsed 2.4
+train_9101 flows 24 / 32 elapsed 3.0
+train_9101 flows 32 / 32 elapsed 3.7
+pilot_validation flows 8 / 16 elapsed 1.1
+pilot_validation flows 16 / 16 elapsed 1.7

@@ -1,0 +1,103 @@
+{
+  "config": {
+    "coarse_points": 32,
+    "reference_points": 96,
+    "domain": 6.283185307179586,
+    "viscosity": 0.01,
+    "drag": -0.1,
+    "forcing_mode": 4,
+    "forcing_scale": 1.0,
+    "output_dt": 0.2,
+    "teacher_substeps": 10,
+    "reference_substeps": 20,
+    "warmup_steps": 300,
+    "training_horizon": 8,
+    "test_horizon": 100,
+    "primary_horizon": 20,
+    "hidden_channels": 12,
+    "fno_modes": 8,
+    "fno_blocks": 3
+  },
+  "provenance": {
+    "dependencies": {
+      "jax": "0.4.38",
+      "jaxlib": "0.4.38",
+      "exponax": "0.1.0",
+      "pdequinox": "0.1.2",
+      "equinox": "0.13.8",
+      "optax": "0.2.5",
+      "numpy": "2.5.5"
+    },
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "source_sha256": {
+      "turbulence_core.py": "4cdc759aa5bc1d18121efb1bbec71d0b6619e8c8e64e82c02e4d4e5b9e55a540"
+    }
+  },
+  "warmup_rms_by_time": [
+    [
+      1.3527255058288574,
+      1.0903273820877075,
+      0.9744684100151062,
+      0.7029978036880493
+    ],
+    [
+      3.9984095096588135,
+      3.044955015182495,
+      3.382019281387329,
+      4.039947509765625
+    ],
+    [
+      3.3469316959381104,
+      3.2077372074127197,
+      3.3213539123535156,
+      3.6385653018951416
+    ],
+    [
+      3.4318466186523438,
+      2.631192684173584,
+      3.5925686359405518,
+      3.748948812484741
+    ],
+    [
+      3.352631092071533,
+      3.915766716003418,
+      3.6331825256347656,
+      4.190272808074951
+    ],
+    [
+      3.322279453277588,
+      3.5711023807525635,
+      3.1659975051879883,
+      2.659853935241699
+    ],
+    [
+      3.64619517326355,
+      3.5307199954986572,
+      3.580371856689453,
+      4.013783931732178
+    ]
+  ],
+  "teacher_reference_mean_RMSE": 1.0916908979415894,
+  "teacher_reference_RMSE_at_20": 2.215834140777588,
+  "64_to_96_reference_mean_RMSE": 0.0320773608982563,
+  "96_to_128_reference_mean_RMSE": 0.0008662734180688858,
+  "96_to_128_fraction_of_teacher_gap": 0.0007935152971185744,
+  "resize_roundtrip_max_difference": 3.814697265625e-06,
+  "nonforcing_energy_fraction": 0.7994497418403625,
+  "elapsed_physics_s": 12.589968204498291,
+  "training_N1_compile_s": 0.6397228240966797,
+  "training_N1_100_updates_s": 0.43938469886779785,
+  "training_N1_pilot_loss_start_end": [
+    0.07141134142875671,
+    0.012905965559184551
+  ],
+  "training_N4_compile_s": 1.5954680442810059,
+  "training_N4_100_updates_s": 1.2683489322662354,
+  "training_N4_pilot_loss_start_end": [
+    0.3149706721305847,
+    0.061624057590961456
+  ],
+  "n_params": 111109
+}
